@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    margin: 0;
+
+    font-family: "Poppins";
+    background-color: #eee;
+}
+h1 {
+    margin: 0;
+}
+
+.flex-container {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.flex-container .card {
+    padding: 16px;
+    background-color: #fff;
+    width: 300px;
+    height: 180px;
+    margin-top: 10px;
+
+
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+   
+}
+
+.card-cyan {
+
+    border-top: 4px solid #0df;
+    display: flex;
+    flex-direction: column;
+}
+
+.header2 {
+    font-weight: 800;
+    text-align: center;
+}
+
+.header1 {
+    font-weight: 200;
+    color: #888;
+    text-align: center;
+}
+.card {
+    box-shadow: 0 0 16px 0 #aaa;
+  
+}
+.card-red {
+    border-top: 4px solid #e00;
+    margin: 20px 0 10px 0;
+
+
+}
+
+.card-orange {
+    border-top: 4px solid #f95;
+
+}
+
+.card-blue {
+    border-top: 4px solid #00a;
+    display: flex;
+    flex-direction: column;
+
+}
+
+ .header small {
+    font-size: 12px;
+    color: #888;
+  display: block;
+  width: 400px;
+  text-align: center;
+  margin:10px 0 30px 0;
+}
+
+.flex-container .card img,
+.flex-container .cards img {
+    margin-left: auto;
+
+}
+
+.teambuilder-karma {
+    display: flex;
+    flex-direction: column;
+
+}
+
+  
+
+@media  screen and  (max-width:600px) {
+
+    .cards {
+        display:flex;
+        flex-direction: column;
+    }
+}
